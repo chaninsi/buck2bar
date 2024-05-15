@@ -122,8 +122,10 @@ document.querySelector('#saveImage').addEventListener('click', function() {
 document.querySelector('#goToDataTab').addEventListener('click', function() {
     var dataTab = document.querySelector('#data');
     var chartTab = document.querySelector('#chart');
+    // Add and remove show in tab content class
     dataTab.classList.add('active', 'show');
     chartTab.classList.remove('active', 'show');
+    // Four line was duplicated and modified by me
     var dataNav = document.querySelector('#data-nav');
     var chartNav = document.querySelector('#chart-nav');
     dataNav.classList.add('active');
