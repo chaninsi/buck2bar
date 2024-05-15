@@ -1,6 +1,6 @@
 # Buck2Bar
 
-This is a web project called Buck2Bar.
+This is a web project called Buck2Bar that's a sample HTML form and chart that was coded by GitHub-Copilot
 
 ## Project Structure
 
